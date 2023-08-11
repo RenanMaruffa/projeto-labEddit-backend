@@ -1,42 +1,24 @@
-# Projeto Integrador
+# LabEddit Back-end
 
-# Introdução
+Inspirado no Reddit, o projeto se baseia em um fórum online, que permite a criação de postagens e discussões através de comentários, com funcionalidade de votar nos posts e comentários.
 
-Olá! Antes de começar gostaríamos de dar os mais sinceros **parabéns** 👏👏👏! 
+## Sobre o projeto
 
-Você entregou os projetos de *frontend **com JavaScript e* React**, *****backend* com **Typescript**, **Knex** e **Express**, e agora está aprendendo a infraestrutura da aplicação.
+Este repositorio fica responsavel por armazenar o back-end da aplicação Labeddit, desenvolvido em Node.js e Typescript. Foi idealizado como ultimo projeto de conclusão do bootcamp web fullstack Labenu e, juntamente com o front-end ([disponível aqui](https://github.com/RenanMaruffa/projeto-labEddit-frontend)), representa uma aplicação completa desenvolvida do zero até o deploy.
 
-Até aqui esses projetos estavam ainda dentro do que podemos chamar de "bolha segura", onde apesar de serem fortemente inspirados em projetos reais, ainda tinham um aspecto mais educativo, com dicas e passos estruturados.
+## Deploy
 
-Agora é hora de entrar em contato com o que é esperado em testes reais para se preparar para os desafios técnicos dos processos seletivos das empresas.
+labenu-labeddit-renan.surge.sh
 
-# Labeddit Full Stack
+## Documentação da API - Postman
 
-Esse é o último projeto do curso e por isso você terá que utilizar todo o conhecimento adquirido em back-end e front-end.
+https://documenter.getpostman.com/view/22178263/2s9Xy2QXyf
 
-Temos no Figma abaixo um design de app mobile first:
+## Ferramentas utilizadas
 
-- Mobile First é um conceito aplicado em projetos web onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis, ou seja, seu layout e funcionalidades são desenvolvidos primeiramente para a tela do celular e a partir disso (se necessário) adaptado para telas maiores, como dos tablets ou desktops.
-
-Crie repositórios pessoais separados para o front e para o back, pois facilita o processo de deploy.
-
-# Figma
-
-https://www.figma.com/file/Byakv89sjTqI6NG2NRAAKJ/Projeto-Integrador-Labeddit?node-id=0%3A1&t=haX9j5M0lHbjWnAr-0
-
-# Requisitos do projeto
-
-## Front-end
-
-- [ ]  Respeitar o layout do Figma
-- [ ]  Uso do ReactJS
-- [ ]  Site deployado
-- [ ]  Documentação README
-
-## Back-end
-
-- [ ]  Endpoints seguindo as boas práticas HTTP
-- [ ]  Uso do ExpressJS, Typescript e SQLite
-- [ ]  Cobertura de testes (pelo menos 70% da Business)
-- [ ]  API deployada
-- [ ]  Documentação README e POSTMAN
+- Node.js
+- Typescript
+- SQL Lite
+- Express.js
+- Knex
+- VSCode
